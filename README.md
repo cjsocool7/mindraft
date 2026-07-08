@@ -1,4 +1,4 @@
-# Mindvec
+# Mindraft
 
 A desktop mind-mapping application built from scratch with Python and PySide6.
 
