@@ -13,20 +13,8 @@ your thoughts visually on an infinite canvas.
 - PySide6 (Qt for Python)
 
 ## Project Structure
-mindvec/
-├── models/         ← data layer (nodes, edges, graph)
-├── views/          ← GUI layer (canvas, node items, edge items)
-├── controllers/    ← connects models and views
-└── utils/          ← constants and shared helpers
-
-## Phase 1 — MVP (In Progress)
-- [x] Create nodes
-- [ ] Connect nodes with edges
-- [ ] Drag nodes on canvas
-- [ ] Delete nodes
-- [ ] Edit node labels
-
-## Phase 2 — Planned
-- [ ] Save and load mind maps
-- [ ] Multiple mind maps
-- [ ] Home screen
+mindraft/
+├── models/
+├── views/
+├── controllers/
+└── utils/
