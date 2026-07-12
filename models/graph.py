@@ -1,11 +1,11 @@
 from dataclasses import dataclass, field
-from node import Node
-from edge import Edge
+from models.node import Node
+from models.edge import Edge
 
 
 @dataclass
 class Graph:
-    nodes: dict = field(default_factory=dict)
+    nodes: dict = field(default_factory=dict) # creates own dict
     edges: dict = field(default_factory=dict)
 
     def add_node(self, node):
